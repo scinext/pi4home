@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#Driver details for TSL2561 webiopi driver
 
 =Device TSL2561T / TSL2561CS=
 
