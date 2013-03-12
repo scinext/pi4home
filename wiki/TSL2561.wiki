@@ -1,22 +1,24 @@
 #summary Driver details for TSL2561 webiopi driver
 
-=Device TSL2561T / TSL2561CS=
+= Device TSL2561 (TSL2561T, TSL2561CS) =
 
-===Description===
+=== Description ===
 
 The TSL2561 is a light-to-digital converter that transforms light intensity to a digital signal output
 capable of direct I2C interface.
 
-===Implemented features/functions===
+=== Implemented features/functions ===
  * Read luminosity value in units of lux
  * Wakeup device and send it back to sleep
  * Set integration time and gain value
 
-===(Currently) NOT implemented features/functions===
- * Use of interrupt control and interrupt registers
- * Reading of ID register
- * Manual timing control
- * Automatic gain and timing control to avoid sensor saturation
+=== (Currently) NOT implemented features/functions ===
+ * Automatic gain and timing control to avoid sensor saturation (maybe next release)
+ * Use of interrupt control and interrupt registers (maybe next+ release)
+
+=== (Presumably) NEVER implemented features/functions ===
+ * Reading of ID register (very useless informaton)
+ * Manual timing control (very fine-grained timing not well suited for Python server applications)
 
 ===Automatic REST mapping===
 || *HTTP/CoAP method* || *URL path* || *Result type* || *Description* ||
@@ -35,9 +37,9 @@ _Remark: Default values are in *bold*_
 mytsl2561_1 = TSL2561
 mytsl2561_2 = TSL2561T slave: 0x29 gain:16 time:101
 mytsl2561_3 = TSL2561CS slave: 0x49 time:14
-
 }}}
 
+The chip comes in 2 packages (T and CS), generic class TSL2561 defaults to TSL2561T.
 
 ===Device instance Python API===
 || *Method* || *Return value* || *Description* || *Remarks* ||
