@@ -1,0 +1,9 @@
+#summary The landing page of wiki.
+
+= Hardware tips=
+
+ * Things to consider when using a RaspberryPi as [HEADLESS headless server]
+
+= Software tips=
+
+ * Driver details for [TSL2651] driver
