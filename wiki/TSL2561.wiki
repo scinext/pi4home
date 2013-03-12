@@ -16,11 +16,11 @@ capable of direct I2C interface.
  * Use of interrupt control and interrupt registers
  * Reading of ID register
  * Manual timing control
- * Automatic gain and timing control to avoid saturation
+ * Automatic gain and timing control to avoid sensor saturation
 
 ===Automatic REST mapping===
-|| *Method* || *URL Path* || *Description* ||
-|| GET || /device/{configname}/luminosity/lx || Get brightness in units of lux ||
+|| *HTTP/CoAP method* || *URL path* || *Result type* || *Description* ||
+|| GET || /device/{configname}/luminosity/lx || text/plain || Get brightness in units of lux ||
 
 ===Config options===
 || *Parameter* || *Values* || *Remarks* ||
@@ -29,6 +29,12 @@ capable of direct I2C interface.
 || gain: || *1*, 16 || ||
 
 _Remark: Default values are in *bold*_
+
+===Config examples===
+{{{
+mytsl2561_1 = TSL2561
+mytsl2561_2 = TSL2561T slave: 0x29 gain:16 time:101
+}}}
 
 
 ===Device instance Python API===
