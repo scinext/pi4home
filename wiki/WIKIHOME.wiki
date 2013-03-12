@@ -6,4 +6,4 @@
 
 = Software tips=
 
- * Driver details for [TSL2651] driver
+ * Driver details for [TSL2561] driver
