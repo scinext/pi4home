@@ -34,6 +34,8 @@ _Remark: Default values are in *bold*_
 {{{
 mytsl2561_1 = TSL2561
 mytsl2561_2 = TSL2561T slave: 0x29 gain:16 time:101
+mytsl2561_3 = TSL2561CS slave: 0x49 time:14
+
 }}}
 
 
