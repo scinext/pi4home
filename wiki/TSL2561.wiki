@@ -2,7 +2,7 @@
 
 = Device TSL2561 (TSL2561T, TSL2561CS) =
 
-== Description ==
+== _DESCRIPTION_ ==
 
 The TSL2561 is a light-to-digital converter that transforms light intensity to a digital signal output
 capable of direct I2C interface.
@@ -22,7 +22,8 @@ This description is valid for driver v1.0
  * Reading of ID register (very useless information)
  * Manual timing control (very fine-grained timing not well suited for Python server applications)
 
-== REST API ==
+
+== _REST API_ ==
 
 === Automatic REST mapping ===
 || *HTTP/CoAP method* || *URL path* || *Result type* || *Description* ||
@@ -33,7 +34,8 @@ This description is valid for driver v1.0
 GET http://host_or_ip:8000/devices/mytsl2561/luminosity/lx 
 }}}
 
-== CONFIG ==
+
+== _CONFIG_ ==
 
 === Config options ===
 || *Parameter* || *Values* || *Remarks* ||
@@ -51,7 +53,9 @@ mytsl2561_3 = TSL2561CS slave: 0x49 time:14
 
 The chip comes in 2 packages (T and CS), generic class TSL2561 defaults to TSL2561T.
 
-== Python ==
+
+== _PYTHON_ ==
+
 === Device instance Python API ===
 || *Method* || *Return value* || *Description* || *Remarks* ||
 || getLux() || float || Read luminosity ||
