@@ -29,7 +29,7 @@ This description is valid for driver v1.0
 
 === REST examples ===
 {{{
-GET http://host_or_ip:8000/devices/mytsl2561_1/luminosity/lx 
+GET http://host_or_ip:8000/devices/mytsl2561/luminosity/lx 
 }}}
 <br/>
 == _CONFIG_ ==
@@ -43,7 +43,7 @@ _Remark: Default values are in *bold*_
 
 === Config examples ===
 {{{
-mytsl2561_1 = TSL2561
+mytsl2561   = TSL2561
 mytsl2561_2 = TSL2561T slave: 0x29 gain:16 time:101
 mytsl2561_3 = TSL2561CS slave: 0x49 time:14
 }}}
