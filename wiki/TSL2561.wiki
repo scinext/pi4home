@@ -37,7 +37,7 @@ GET http://host_or_ip:8000/devices/mytsl2561/luminosity/lx
 
 === Config options ===
 || *Parameter* || *Values* || *Remarks* ||
-|| slave: || 0x29 *0x39* 0x49 || I2C 7 bit slave address ||
+|| slave: || 0x29, *0x39*, 0x49 || I2C 7 bit slave address ||
 || time: || *402*, 101, 14 || ||
 || gain: || *1*, 16 || ||
 _Remark: Default values are in *bold*_
