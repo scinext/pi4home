@@ -1,4 +1,4 @@
-#summary Driver details for TSL2561 webiopi driver
+#summary Driver details for TSL2561 WebIOPi driver
 
 = Device TSL2561 (TSL2561T, TSL2561CS) =
 == _DESCRIPTION_ ==
