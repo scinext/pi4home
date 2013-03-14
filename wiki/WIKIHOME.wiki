@@ -1,14 +1,15 @@
-#summary The landing page of wiki.
+#summary The landing page of the wiki.
 = Welcome to the pi4home wiki =
 
 Here you will find infromation that helps to run a Raspberry Pi device as headless server that is part of your personal internet of things and services.
 
-= Hardware tips=
+= Hardware tips =
 
  * Things to consider when using a Raspberry Pi as [HEADLESS headless server]
 
-= Software tips=
+= Software tips =
 
-== Webiopi ==
+== WebIOPi ==
 
  * Driver details for [TSL2561] driver
+ * Driver details for [TSL4531] driver
