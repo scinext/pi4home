@@ -15,6 +15,8 @@ This description is valid for driver v1.0
 
 === (Currently) NOT implemented features/functions ===
  * Automatic gain and timing control to avoid sensor saturation (maybe next release)
+ * One ADC cycle setting (maybe next+ release)
+ * Powersave skip setting (maybe next+ release)
 
 === (Presumably) NEVER implemented features/functions ===
  * Reading of ID register (very useless information)
