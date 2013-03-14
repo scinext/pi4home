@@ -34,7 +34,7 @@ GET http://host_or_ip:8000/devices/mytsl4531/luminosity/lx
 ----
 === Config options ===
 || *Parameter* || *Values* || *Remarks* ||
-|| time: || *400*, 200, 100 || ||
+|| time: || *400*, 200, 100 || Integration time in ms ||
 
 _Remark: Default values are in *bold*_
 
