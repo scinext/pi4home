@@ -29,7 +29,7 @@ This description is valid for driver v1.0
 
 === REST examples ===
 {{{
-GET http://host_or_ip:8000/devices/mytsl2561/luminosity/lx 
+GET http://host_or_ip:8000/devices/mytsl2561_1/luminosity/lx 
 }}}
 <br/>
 == _CONFIG_ ==
