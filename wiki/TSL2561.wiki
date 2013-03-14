@@ -64,8 +64,9 @@ The chip comes in 2 packages (T and CS), generic class TSL2561 defaults to TSL25
 
 === API examples ===
 {{{
-aTSL2561 = deviceNamed(mytsl2561)
-aTSL2561.setGain(16)
-lux = aTSL2561.getLux()
-print("Lux: %.2f" % (lux))
+def myExample()
+    aTSL2561 = deviceInstance("mytsl2561")
+    aTSL2561.setGain(16)
+    lux = aTSL2561.getLux()
+    print("Lux: %.2f" % (lux))
 }}}
