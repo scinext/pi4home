@@ -35,7 +35,9 @@ GET http://host_or_ip:8000/devices/mytsl4531_1/luminosity/lx
 === Config options ===
 || *Parameter* || *Values* || *Remarks* ||
 || time: || *400*, 200, 100 || ||
+
 _Remark: Default values are in *bold*_
+
 _Remark 2: You could give a slave parameter, but chips have slave address fixed to 0x39 for TSL45311/TSL45313 and 0x29 for TSL45315/TSL45317 so this parameter is redundant and should be avoided.
 === Config examples ===
 {{{
@@ -44,7 +46,7 @@ mytsl4531_2 = TSL45311 time:100
 mytsl4531_3 = TSL45315 time:200
 }}}
 
-The chip comes in 4 variants (TSL45311, TSL45313, TSL45315, TSL45317), generic class TSL4531 defaults to TSL45315. as this is the one used on the breakout board that you can buy for now.
+The chip comes in 4 variants (TSL45311, TSL45313, TSL45315, TSL45317), generic class TSL4531 defaults to TSL45315 as this is the one used on the breakout board that you can buy for now.
 <br/>
 == _PYTHON_ ==
 ----
