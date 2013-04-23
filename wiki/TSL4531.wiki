@@ -24,6 +24,7 @@ This description is valid for driver v1.0
 == _REST API_ ==
 ----
 === Automatic REST mapping ===
+This driver implements the standard mapping for the Luminosity devices class.
 || *HTTP/CoAP method* || *URL path* || *Result type* || *Description* ||
 || GET || /device/{configname}/luminosity/lx || text/plain || Get brightness in units of lux ||
 
