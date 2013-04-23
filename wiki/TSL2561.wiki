@@ -26,11 +26,11 @@ This description is valid for driver v1.0
 === Automatic REST mapping ===
 This driver implements the standard mapping for the Luminosity devices class.
 || *HTTP/CoAP method* || *URL path* || *Result type* || *Description* ||
-|| GET || /device/{configname}/luminosity/lx || text/plain || Get brightness in units of lux ||
+|| GET || /device/{configname}/sensor/luminosity/lx || text/plain || Get brightness in units of lux ||
 
 === REST examples ===
 {{{
-GET http://host_or_ip:8000/devices/mytsl2561/luminosity/lx 
+GET http://host_or_ip:8000/devices/sensor/mytsl2561/luminosity/lx 
 }}}
 <br/>
 == _CONFIG_ ==
