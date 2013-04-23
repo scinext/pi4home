@@ -7,7 +7,16 @@ The information below is thought for the situation when you operate a Raspberry 
 
 = Setup =
 
-How can I setup a virgin Raspberry Pi without having it connected to display and keyboard for initial installation?
+How can I setup a virgin Raspberry Pi without having it connected to display and keyboard for initial installation? 
+
+ * Prepare a SD-Card with the latest Raspbian Image
+ * put this SD-Card into the virgin Raspberry Pi and reboot
+ * SSH login to the new Raspberry Pi using the default hostname or the new IP address (can be found by scanners like Fing)
+ * change the hostname in /etc/hostname and /etc/hosts and reboot
+ * SSH login using the new hostname (or IP address). All other headless server related setups (memory split, turbo mode, OS and packages  updates) can be done over SSH as well.
+
+
+How can I clone the setup of an existing Raspberry Pi to another?
 
  * Assumed is you have already another Raspberry Pi running and a decent DHCP server in your LAN
  * Prepare a SD-Card in the other Raspberry Pi that has SSH enabled and network ready to run (either via wired LAN and/or automatic WLAN connection, preferrably using DHCP)
@@ -16,6 +25,8 @@ How can I setup a virgin Raspberry Pi without having it connected to display and
  * SSH login to the new Raspberry Pi using the old hostname or the new IP address (can be found by scanners like Fing)
  * change the hostname in /etc/hostname and /etc/hosts and reboot
  * SSH login using the new hostname (or IP address). All other headless server related setups (memory split, turbo mode, OS and packages  updates) can be done over SSH now.
+
+Alternatively to DHCP there is an option to set a fixed IP address in the boot partition's cmdline.txt (ip=x.x.x.x).
 
 = Hardware =
 ----
