@@ -26,7 +26,7 @@ How can I clone the setup of an existing Raspberry Pi to another?
  * Change the hostname in /etc/hostname and /etc/hosts and reboot
  * SSH login using the new hostname (or IP address). All other headless server related setups (memory split, turbo mode, OS and packages  updates) can be done over SSH now.
 
-Alternatively to DHCP there is an option to set a fixed IP address in the boot partition's cmdline.txt (ip=x.x.x.x).
+Alternatively to DHCP there is an option to set a fixed IP address as kernel boot parameter in the boot partition's cmdline.txt (ip=x.x.x.x) and use that IP for the first SSH login.
 
 = Hardware =
 ----
