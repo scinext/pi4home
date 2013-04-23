@@ -30,7 +30,7 @@ This driver implements the standard mapping for the Luminosity devices class.
 
 === REST examples ===
 {{{
-GET http://host_or_ip:8000/devices/mytsl4531/luminosity/lx 
+GET http://host_or_ip:8000/devices/sensor/mytsl4531/luminosity/lx 
 }}}
 <br/>
 == _CONFIG_ ==
