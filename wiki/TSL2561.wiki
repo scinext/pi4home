@@ -15,7 +15,7 @@ This description is valid for driver v1.0
 
 === (Currently) NOT implemented features/functions ===
  * Automatic gain and timing control to avoid sensor saturation (maybe next release)
- * Use of interrupt control and interrupt registers (maybe next+ release)
+ * Use of interrupt control and interrupt registers (maybe next+ release but is subject to have interrupts implemented in WebIOPI base)
 
 === (Presumably) NEVER implemented features/functions ===
  * Reading of ID register (very useless information)
